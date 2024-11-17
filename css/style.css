@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Protest+Guerrilla&family=Rubik+Wet+Paint&display=swap');
+
+
+/* ***************************Navigation styles************************************** */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 70px 1fr ;
+    
+}
+nav{
+    display: flex; 
+ justify-content: space-between;
+ background-color: #fefefe;
+ padding-top: 10px;
+}
+
+nav img{
+    height: 100%;
+    width: 10%;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-top: 10px;
+    
+
+}
+nav ul a{
+    text-decoration: none;
+    color:#393449;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+nav img:hover{
+transform: scale(1.2);
+}
+
+
+
+/* ***************************Section in Header styles************************************** */
+header section{
+    display: flex;
+    padding-top: 20px;
+
+
+}
+header section div.info{
+    width: 50%;
+    background-color: #fff3f3;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: spin 0.5s ease-in-out;
+}
+div.info h1{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color:#eaa9af;
+    padding-bottom: 20px;
+}
+div.info p{
+    font-size: 15px;
+    color:#350030;
+    padding: 15px;
+}
+div.info a{
+    font-size: 20px;
+    background-color:#eaa9af;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    color: #350030;
+    text-decoration: none;
+}
+div.info a:hover{
+
+    background-color:#9d9cd2;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #350030;
+}
+
+header section div.image{
+    width: 50%;
+}
+
+div.image img{
+    width: 100%;
+    height: 100%;
+ 
+}
+   
+

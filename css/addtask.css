@@ -1,0 +1,96 @@
+body{
+background-image: url("../assets/formimg.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-color:#fcd0d1;
+display: flex;
+height: 100vh;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+}
+
+.mainclass {
+    max-width: 300px;
+    background-color:rgba(0,0,0,0.03);
+    width: 100% ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+ animation: inp 0.5s linear;
+}
+.mainclass h2{
+    font-size: 30px;
+    color: #9d6c79;
+}
+.form input{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 6px;
+    background-color: #f4c9ca;
+    border: 2px solid #9d6c79;
+}
+
+.mainclass input[type="submit"] {
+    padding: 9px 25px;
+    background-color: #f4c9ca;
+    margin: 6px;
+    border: 2px solid #9d6c79;
+    border-radius: 4px;
+    color: #9d6c79;
+}
+
+.mainclass input[type="submit"]:hover{
+    
+    background-color: #9d6c79;
+    color: #f4c9ca;
+   cursor: pointer;
+}
+
+
+
+.flatpickr-calendar {
+    background-color: #fcd0d1; 
+    color: #333; 
+}
+
+.flatpickr-day {
+    background-color: #f4c9ca; 
+    color: #9d6c79;
+    border-radius: 5px;
+}
+
+
+.flatpickr-day.today {
+    background-color: #9d6c79;
+    color: #fff;
+}
+
+
+.flatpickr-day.selected {
+    background-color: #c27c85; 
+    color: #fff; 
+}
+
+.flatpickr-months .flatpickr-month {
+    color: #9d6c79;
+}
+
+.flatpickr-time .flatpickr-hour, .flatpickr-time .flatpickr-minute {
+    background-color: #f4c9ca; 
+    color: #9d6c79; 
+    border: 2px solid #9d6c79; 
+    border-radius: 5px;
+}
+
+
+
+
+@keyframes inp {
+    from {
+        transform: scale(0.9); /* تغيير من -360deg إلى -100% */
+    }
+    to {
+        transform: scale(1);
+    }
+}

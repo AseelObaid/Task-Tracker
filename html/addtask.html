@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Update Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   
+    <link rel="stylesheet" href="../css/addtask.css">
+  
+</head>
+<body>
+
+   
+
+  <div class="mainclass">
+    <h2>ADD/UPDATE TASK</h2>
+    <form class="form" onsubmit="addOrUpdateTask(event)">
+        <input id="taskname" type="text" placeholder="Enter Task Name" required />
+        <input type="text" id="datepicker" placeholder="Enter Task Date" required />
+        <input type="text" id="timepicker" placeholder="Enter Task Time" required />
+        <input type="hidden" id="taskIndex" />
+        <input type="submit" id="addbtn"  value="save"/>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="../script.js" ></script>
+  <script src="../flatpickr.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+   height: 100vh;
+   background-color: #f5eef0;
+ }
+ .demo {
+   background-color: #f5eef0;
+   text-align:center;
+  padding: 20px;
+
+ }
+
+ .demo a {
+   padding: 10px 18px;
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #907179;
+   border-radius: 5px;
+ }
+ 
+ .demo a:hover {
+   background-color: #634853; 
+ }
+ 
+ .parent {
+  
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   align-content: center;
+ 
+  padding-top: 50px;
+}
+
+.child {
+   width: 300px;
+   min-width: 200px;
+   background-color:#d7c0c9;
+   min-height: 120px;
+   text-align: left;
+   border-radius: 8px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+   transition: transform 0.3s ease;
+}
+
+.child:hover {
+   transform: scale(1.05); 
+}
+.child p{
+   padding: 15px 20px;
+   font-size: 17px;
+}
+button{
+   padding: 10px;
+   margin: 20px;
+
+}
+.btn-danger{
+   background-color:#b74f4f;
+   border-radius: 4px;
+}
+.btn-info{
+   background-color: #688547;
+   border-radius: 4px;
+}
+.child h2{
+   text-align: center;
+}
+
+/* *****************خرابيط للاظافة********************/
